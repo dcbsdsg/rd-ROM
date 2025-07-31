@@ -19,7 +19,7 @@ export default defineConfig({
     logo: "/logo.png",
 
     nav: nav,
-    // sidebar: sidebar,
+    sidebar: sidebar,
 
     lastUpdated: {
       text: "更新时间",

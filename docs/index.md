@@ -2,18 +2,6 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
-# 添加自定义脚本
-# 使用 head 配置项添加脚本 脚本会在页面加载时执行 检查 localStorage 中是否有 isAuthenticated 标志 如果未登录且当前不是登录页面，则重定向到登录页
-head:
-   - ['script', {}, `
-    if (typeof localStorage !== 'undefined') {
-      const isAuthenticated = localStorage.getItem('isAuthenticated') === 'true';
-      if (!isAuthenticated && !window.location.pathname.includes('login.html')) {
-        window.location.href = '/rd-ROM/login.html';
-      }
-    }
-  `]
-
 hero:
   name: "ROM"
   text: "王权之忆说明文档"
