@@ -10,6 +10,9 @@ hero:
     - theme: brand
       text: 点击查看更新日志
       link: /更新日志
+    - theme: brand
+      text: 使用建议
+      link: /使用建议
 
 features:
   - title: xx版本
@@ -20,6 +23,6 @@ features:
     details: 获取新脚本后请先查看更新日志了解更新情况
 ---
 
-<br><br><br><br><br>
+<br><br><br><br>
 
 <div id="last-push-time"></div>
